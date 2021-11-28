@@ -6,5 +6,4 @@ Restaurantmenu:
   link1:
      https://restaurantmenusatyam.netlify.app
   
-  link2:
-     https://satyamrestaurant.herokuapp.com/
+ 
