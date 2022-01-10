@@ -3,6 +3,7 @@ import './style.css';
 import Menu from './menuApi';
 import MenuCard from './MenuCard';
 import Navbar from './Navbar'
+import Top from './Top';
 
 const uniquelist = [...new Set(Menu.map((curElem) =>{
   return curElem.category;
@@ -29,6 +30,7 @@ const Restr = () => {
     };
     return (
         <>
+            <Top/>
             <Navbar filterItem={filterItem} menuList={menuList}/>
             <MenuCard menuData={menuData}/>
         </>
