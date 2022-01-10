@@ -3,7 +3,7 @@ import React from 'react'
 const MenuCard = ({menuData}) => {
     return (
         <>
-        <section className="main-card--cointainer" >
+        <section className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 space-x-4" >
        {menuData.map((curElem)=>{
            return( 
                <>
